@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BMI Calculator</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h3 class="head">BMI CALCULATOR</h3>
+        <div class="gender">
+            <div class="male">
+                <button class="btn">Male</button>
+            </div>
+            <div class="female">
+                <button class="btn">Female</button>
+            </div>
+        </div>
+        <div class="hieght">
+            <p>hieght</p>
+            <p id="rangeValue">0 <span>cm</span></p>
+            <input class="inp" type="range" max="400" value="0">
+        </div>
+        <div class="wieght-age">
+            <div class="wieght">
+                <p>WEIGHT</p>
+                <h2 id="exactWieght">0</h2>
+                <span class="getWieght">
+                    <button  value="-" >-</button>
+                    <button   value="+">+</button>
+                </span>
+            </div>
+            <div class="age">
+                <P>AGE</P>
+                <h2 >0</h2>
+                <span >
+                    <button>-</button>
+                    <button>+</button>
+                </span>
+            </div>
+        </div>
+        <span  class="getWieght"><button id="cal"  value="=">CALCULATE YOUR EMI</button></span>
+        <h1 id="your-Bodymass"></h1>
+    </div>
+
+
+    <script src="./script.js"></script>
+</body>
+
+</html>
